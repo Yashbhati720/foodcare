@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodcare</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+          
+          <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+            <div class="relative mb-4">
+              <label for="full-name" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="text" id="full-name" name="full-name" class="w-full bg-blue-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="password" class="leading-7 text-sm text-gray-600">Password</label>
+              <input type="password" id="Password" name="Password" class="w-full bg-blue-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="row align-items-center">
+
+                <div class="col-12">
+
+                    <label class="fz14 fw600">Security Captcha <span>*</span></label>
+
+                </div>
+
+                <div class="col-6 mt-3 position-relative">
+
+                    <div id="signin_captcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="80" role="presentation" name="a-g10dn1z8rj4q" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdUQVYdAAAAABxZV6hr0xFtq9CHy-ZJslvPOJku&amp;co=aHR0cHM6Ly93d3cuaWJlZi5vcmc6NDQz&amp;hl=en&amp;v=QUpyTKFkX5CIV6EF8TFSWEif&amp;size=normal&amp;cb=wyz40twg7sjs"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+
+                    <p id="login-captcha-error">
+
+                </p></div>
+
+            </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">login</button>
+            <p class="text-xs text-gray-500 mt-3"></p>
+          </div>
+          
+        </div>
+      </section>
+</body>
+</html>
